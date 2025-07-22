@@ -6,7 +6,14 @@ A classic Asteroids arcade game clone built with Python and Pygame.
 
 ## Description
 
-This is a modern implementation of the classic Asteroids arcade game from 1979. Control a spaceship in space, shoot asteroids, and avoid collisions. The game features:
+This is a modern implementation of the classic Asteroids arcade game from 1979. Control a spaceship in space, shoot asteroids, and avoid collisions.
+
+## Game Mechanics
+
+- The player controls a triangular spaceship in the center of the screen
+- Asteroids spawn from the edges of the screen and move in random directions
+- When shot, larger asteroids split into smaller ones
+- The game ends if the player's ship collides with an asteroid
 
 ## Controls
 
@@ -43,10 +50,3 @@ To run the game, execute the main.py script:
 ```bash
 uv run main.py
 ```
-
-## Game Mechanics
-
-- The player controls a triangular spaceship in the center of the screen
-- Asteroids spawn from the edges of the screen and move in random directions
-- When shot, larger asteroids split into smaller ones
-- The game ends if the player's ship collides with an asteroid
